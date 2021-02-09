@@ -1,0 +1,26 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Just Tech News </h1>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewdamron/just-tech-news.git"
+  },
+  "author": "Matt Damron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewdamron/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/matthewdamron/just-tech-news#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
